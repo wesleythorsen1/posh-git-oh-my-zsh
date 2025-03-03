@@ -602,3 +602,7 @@ __posh_git_ps1_upstream_divergence ()
     : ${__POSH_BRANCH_BEHIND_BY:=0}
     return $return_code
 }
+
+git_prompt_info () {
+    __posh_git_echo
+}
